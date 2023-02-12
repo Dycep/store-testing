@@ -4,6 +4,14 @@
     "lastName" : "Oleg",
     "password" : "fsdfsd",
     "email" : "email@mail.ru",
-    "phone" : "375297529368"
-  }
+    "phone" : "375297579767"
+  },
+  "items" : [
+    { "name" : "Apple",
+      "description" : "descripstion",
+      "price" : "1000"},
+    { "name" : "Samsusgs",
+      "description" : "sdf",
+      "price" : "360"}
+  ]
 }

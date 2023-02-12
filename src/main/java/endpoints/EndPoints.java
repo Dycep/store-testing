@@ -7,10 +7,12 @@ import lombok.Getter;
 @Getter
 public enum EndPoints {
     CREATE_ITEM("/create"),
+    GET_ITEMS("/"),
     GET_ITEM("/"),
     DELETE_ITEM("/"),
-    REGISTER_USER("/register"),
-    CONFIRM_REGISTRATION("/register/confirm");
+    UPDATE_ITEM("/"),
+    REGISTER_USER("/registration"),
+    CONFIRM_REGISTRATION("/registration/confirm");
     //TODO divide this class by 2 classes
 
     private final String path;
