@@ -27,8 +27,8 @@ public class ItemRequestsTest {
         String itemId = StoreAPIUtil.createItem(item);
         assertTrue(itemsBefore < StoreAPIUtil.getItems().length, "number of items should be increased");
         StoreAPIUtil.updateItem(itemId, "gjfg");//TODO test data
-        assertEquals(StoreAPIUtil.getItem(itemId).getName(), "gjfg");//TODO add message
+        assertEquals(StoreAPIUtil.getItem(itemId).getName(), "gjfg", "name of item should be changed");//TODO add message
         StoreAPIUtil.deleteItem(itemId);
-        assertEquals(itemsBefore, StoreAPIUtil.getItems().length);
+        assertEquals(itemsBefore, StoreAPIUtil.getItems().length, "item should be deleted");
     }
 }

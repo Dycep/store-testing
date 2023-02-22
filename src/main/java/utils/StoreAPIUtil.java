@@ -43,9 +43,14 @@ public class StoreAPIUtil {
         return response.asPrettyString();
     }
 
-    public static Response confirmRegistration(String token){
+//    public static Response confirmRegistration(String token){
+//        RequestSpecification request = RestAssured.given()
+//                .queryParam("token", token);
+//        return request.get(EndPoints.CONFIRM_REGISTRATION.getPath());//TODO return message 'confirmed'
+//    }
+    public static String confirmRegistration(String token){
         RequestSpecification request = RestAssured.given()
                 .queryParam("token", token);
-        return request.get(EndPoints.CONFIRM_REGISTRATION.getPath());
+        return request.get(EndPoints.CONFIRM_REGISTRATION.getPath()).asPrettyString();//TODO return message 'confirmed'
     }
 }
