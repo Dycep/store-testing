@@ -21,6 +21,6 @@ public class RegistrationTest {
     public void testRegistrationAndItsConfirmation(){
         UserModel testUser = JSONUtil.getValueFromJsonFileByKey(FilepathConstants.TESTDATA_FILEPATH.getFilePath(), "user", UserModel.class);
         String token = StoreAPIUtil.registerUser(testUser);
-        assertEquals(StoreAPIUtil.confirmRegistration(token).statusCode(), HttpStatus.SC_OK);//TODO message
+        assertEquals(StoreAPIUtil.confirmRegistration(token), "confirmed", "response message should be equal 'confirms'");//TODO message and assert response message
     }
 }

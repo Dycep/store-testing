@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" afterDir="false" />
+    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoints/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/endpoints/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/APIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StoreApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +18,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,44 +29,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LYSxpvwIyQXTmtfrGQ4czdjNd5" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LeGwldY9flpIBTa1naKVVnULoo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/store/store-spring-boot&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
-    <configuration name="ItemRequestsTest.testCRUDOperations" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.RegistrationTest.testRegistrationAndItsConfirmation">
+    <configuration name="ItemRequestsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ItemRequestsTest" />
-      <option name="METHOD_NAME" value="testCRUDOperations" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="store-testing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -109,30 +86,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.ItemRequestsTest.testCRUDOperations" />
         <item itemvalue="TestNG.RegistrationTest.testRegistrationAndItsConfirmation" />
-        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.ItemRequestsTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="" />
-      <created>1676046773160</created>
+      <changelist id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="" />
+      <created>1676224376945</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676046773160</updated>
+      <updated>1676224376945</updated>
     </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1676062131811</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1676062131811</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,8 +114,8 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
