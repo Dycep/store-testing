@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoints/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/endpoints/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/APIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StoreApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" afterDir="false" />
-    </list>
+    <list default="true" id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="covering all rest methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676062131811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="covering all rest methods">
+      <created>1676204306623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676204306623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="covering all rest methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="covering all rest methods" />
   </component>
 </project>
