@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="covering all rest methods" />
+    <list default="true" id="83ce292c-917d-4272-bfb3-7f40f7e46894" name="Changes" comment="gdf">
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/FilepathConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/FilepathConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,17 +68,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "F:/store-testing/src/test/java/framework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\store-testing\src\test\java\framework" />
+      <recent name="F:\store-testing\src\test\java" />
+      <recent name="F:\store-testing\src\test\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="logger" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="ItemRequestsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="store-testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemRequestsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemRequestsTest.testCRUDOperations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,6 +147,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.ItemRequestsTest" />
         <item itemvalue="TestNG.ItemRequestsTest.testCRUDOperations" />
         <item itemvalue="TestNG.RegistrationTest.testRegistrationAndItsConfirmation" />
         <item itemvalue="TestNG.RegistrationTest" />
@@ -108,7 +157,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="136c36ea-0ce0-481a-b80d-e49ab47fa9ee" name="Changes" comment="" />
+      <changelist id="83ce292c-917d-4272-bfb3-7f40f7e46894" name="Changes" comment="gdf" />
       <created>1676046773160</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -121,12 +170,12 @@
       <option name="project" value="LOCAL" />
       <updated>1676062131811</updated>
     </task>
-    <task id="LOCAL-00002" summary="covering all rest methods">
-      <created>1676204306623</created>
+    <task id="LOCAL-00002" summary="gdf">
+      <created>1677091394135</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1676204306623</updated>
+      <updated>1677091394135</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -144,7 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <MESSAGE value="covering all rest methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="covering all rest methods" />
+    <MESSAGE value="gdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="gdf" />
   </component>
 </project>

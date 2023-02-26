@@ -1,3 +1,4 @@
+import constants.FilepathConstants;
 import models.ItemModel;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -6,8 +7,7 @@ import utils.APIUtil;
 import utils.JSONUtil;
 import utils.StoreAPIUtil;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 public class ItemRequestsTest {
 
@@ -26,8 +26,9 @@ public class ItemRequestsTest {
         int itemsBefore = StoreAPIUtil.getItems().length;
         String itemId = StoreAPIUtil.createItem(item);
         assertTrue(itemsBefore < StoreAPIUtil.getItems().length, "number of items should be increased");
-        StoreAPIUtil.updateItem(itemId, "gjfg");//TODO test data
-        assertEquals(StoreAPIUtil.getItem(itemId).getName(), "gjfg", "name of item should be changed");//TODO add message
+        String updatedItemName = JSONUtil.getValueFromJsonFileByKey(FilepathConstants.TEST_DATA_FILEPATH.getFilePath(), "updatedItem", ItemModel.class).getName();
+        StoreAPIUtil.updateItem(itemId, updatedItemName);
+        assertEquals(StoreAPIUtil.getItem(itemId).getName(), updatedItemName, "name of item should be changed");
         StoreAPIUtil.deleteItem(itemId);
         assertEquals(itemsBefore, StoreAPIUtil.getItems().length, "item should be deleted");
     }

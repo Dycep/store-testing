@@ -9,9 +9,14 @@
   "items" : [
     { "name" : "Apple",
       "description" : "descripstion",
-      "price" : "1000"},
+      "price" : 1000},
     { "name" : "Samsusgs",
       "description" : "sdf",
-      "price" : "360"}
-  ]
+      "price" : 360}
+  ],
+  "updatedItem" : {
+    "name" : "Apple",
+    "description" : "description",
+    "price" : 1000
+  }
 }

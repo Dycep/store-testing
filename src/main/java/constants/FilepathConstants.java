@@ -6,7 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum FilepathConstants {
-    TESTDATA_FILEPATH("src/test/resources/testdata/testdata.json");
+    TEST_DATA_FILEPATH("src/test/resources/testdata/testdata.json");
 
     private final String filePath;
 }
