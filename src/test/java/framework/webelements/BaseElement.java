@@ -3,8 +3,8 @@ package framework.webelements;
 import framework.logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.WebDriverUtil;
-import utilities.WebDriverWaitUtil;
+import framework.utilities.WebDriverUtil;
+import framework.utilities.WebDriverWaitUtil;
 
 public abstract class BaseElement {
     protected final By locator;

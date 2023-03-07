@@ -4,34 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83ce292c-917d-4272-bfb3-7f40f7e46894" name="Changes" comment="gdf">
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/logger/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/IFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="commit 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/FilepathConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/FilepathConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StoreAPIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemRequestsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/store-testing/src/test/java/framework",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/store-testing/src/test/java/framework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\store-testing\src\test\java\framework" />
@@ -87,7 +70,7 @@
       <recent name="logger" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.TestTest.testVkLogIn">
     <configuration name="ItemRequestsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,22 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.testRegistrationAndItsConfirmation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testRegistrationAndItsConfirmation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testRegistrationAndItsConfirmation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTest.testVkLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testRegistrationAndItsConfirmation" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="testVkLogIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestTest.testVkLogIn" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.ItemRequestsTest" />
         <item itemvalue="TestNG.ItemRequestsTest.testCRUDOperations" />
         <item itemvalue="TestNG.RegistrationTest.testRegistrationAndItsConfirmation" />
-        <item itemvalue="TestNG.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>

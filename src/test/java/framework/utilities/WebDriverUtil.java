@@ -16,9 +16,8 @@ public class WebDriverUtil {
 
     public static WebDriverUtil getInstance(){
         if(instance == null){
-                instance = new WebDriverUtil();
-            }
-
+            instance = new WebDriverUtil();
+        }
         return instance;
     }
 
@@ -32,7 +31,7 @@ public class WebDriverUtil {
     }
 
     public void maximizeWindow(){
-        logInfo("maximize windows");
+        logInfo("maximize window");
         driver.manage().window().maximize();
     }
 

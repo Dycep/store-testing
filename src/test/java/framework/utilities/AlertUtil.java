@@ -3,7 +3,7 @@ package framework.utilities;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 
-import static logger.Log.logInfo;
+import static framework.logger.Log.logInfo;
 
 public class AlertUtil {
 

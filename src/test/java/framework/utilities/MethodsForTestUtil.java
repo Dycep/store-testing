@@ -12,9 +12,6 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static constants.UnicodeConstants.LEFT_POINTING_DOUBLE_ANGLE_QUOT_MARK;
-import static constants.UnicodeConstants.RIGHT_POINTING_DOUBLE_ANGLE_QUOT_MARK;
-
 public class MethodsForTestUtil {
 
     public static int selectNumFromText(String text){
@@ -25,10 +22,6 @@ public class MethodsForTestUtil {
             number.append(matcher.group());
         }
         return Integer.parseInt(number.toString());
-    }
-
-    public static String removeDoubleAngleQuotesFromString(String s){
-           return s.replaceAll("["+ LEFT_POINTING_DOUBLE_ANGLE_QUOT_MARK +","+RIGHT_POINTING_DOUBLE_ANGLE_QUOT_MARK+"]","");
     }
 
     public static String getStringFromListOfWebElements(By by){

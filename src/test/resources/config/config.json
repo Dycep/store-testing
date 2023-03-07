@@ -1,4 +1,7 @@
 {
+  "webDriverConfig" : {
+
+  },
   "baseUri" : "http://localhost:8080/",
   "adminUri" : "http://<login>:<password>@localhost:8080/"
 }
