@@ -18,7 +18,7 @@ public class Config {
 
     private Long millisToPoll;
 
-    public Config(String url, String browserName, HashMap<String, String[]> args, Long millisToWait, Long millisToPoll) {
+    private Config(String url, String browserName, HashMap<String, String[]> args, Long millisToWait, Long millisToPoll) {
         this.url = url;
         this.browserName = browserName;
         this.browserArguments = args;
@@ -26,12 +26,16 @@ public class Config {
         this.millisToPoll = millisToPoll;
     }
 
-    public Config() {
+    private Config(String browserName){
+        this.browserName = browserName;
+    }
+
+    private Config() {
     }
 
     public static Config getInstance(){
         if(instance==null){
-            instance = JSONUtil.parseJsonToCLass("src/test/resources/config/demoqatestconfig.json", Config.class);
+            instance = JSONUtil.parseJsonToCLass("src/test/resources/config/framework_config.json", Config.class);
         }
 
         return instance;

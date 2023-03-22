@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="commit 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="try to set up framework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/registrationpage/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/registrationpage/forms/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/framework_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/MethodsForTestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/WebDriverWaitUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/webelements/BaseElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +139,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83ce292c-917d-4272-bfb3-7f40f7e46894" name="Changes" comment="gdf" />
+      <changelist id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="try to set up framework" />
       <created>1676046773160</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677091394135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try to set up framework">
+      <created>1678220714638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678220714638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="gdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="gdf" />
+    <MESSAGE value="try to set up framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to set up framework" />
   </component>
 </project>
