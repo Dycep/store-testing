@@ -18,7 +18,7 @@ public class ItemRequestsTest {
 
     @BeforeClass
     public void setUp() {
-        APIUtil.setBaseUri((String) JSONUtil.getValueFromJsonFileByKey("src/test/resources/config/config.json", "adminUri"));
+        APIUtil.setBaseUri(JSONUtil.getValueFromJsonFileByKey("src/test/resources/config/testconfig.json", "adminUri"));
     }
 
     @Test(dataProvider = "items")
