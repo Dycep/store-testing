@@ -29,8 +29,9 @@ public class RegistrationTest {
     @Test
     public void testUIRegistrationAndItsConfirmation(){
         WebDriverUtil.getInstance().getDriver().get("http://localhost:3000/registration");
-        UserModel user = JSONUtil.getValueFromJsonFileByKey("src/test/resources/testdata/test.json", "user");
+        UserModel user = JSONUtil.getValueFromJsonFileByKey("src/test/resources/testdata/testdata.json", "user");
         RegistrationPage.registrationForm().fillRegistrationForm(user);
         RegistrationPage.registrationForm().submitForm();
+        //TODO sql request to check whether user account has been created and confirmed
     }
 }

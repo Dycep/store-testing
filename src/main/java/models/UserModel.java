@@ -1,8 +1,10 @@
 package models;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(exclude = {"password"})
 public class UserModel {
     private String firstName;
     private String lastName;
