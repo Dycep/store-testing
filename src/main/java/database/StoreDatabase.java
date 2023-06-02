@@ -2,18 +2,18 @@ package database;
 
 import models.UserModel;
 import org.postgresql.ds.PGSimpleDataSource;
-import utils.SqlUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class StoreDatabase {
-    private static final String DATABASE_NAME = "";
-    private static final String USER = "";
-    private static final String PASSWORD = "";
+    private static final String DATABASE_NAME = "postgres";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "postgres";
     private static PGSimpleDataSource dataSource;
 
     public static PGSimpleDataSource getDataSource(){
@@ -27,11 +27,16 @@ public class StoreDatabase {
     }
 
     public static UserModel getUserByEmail(String email){
-        try {
-            ResultSet resultSet = SqlUtil.executeSqlScript(getDataSource(),
-                    String.format(Files.readString(Path.of("src/test/resources/sqlqueries/selectuserbyemail.sql")), email));
+        try (Statement statement = getDataSource().getConnection().createStatement();
+             ResultSet resultSet = statement.executeQuery( String.format(Files.readString(Path.of("src/test/resources/sqlqueries/selectuserbyemail.sql")), email))) {
             UserModel user = new UserModel();
-            user.setEmail(resultSet.getString("email"));
+            while (resultSet.next()){
+                user.setFirstName(resultSet.getString("first_name"));
+                user.setLastName(resultSet.getString("last_name"));
+                user.setPhone(resultSet.getString("phone"));
+                user.setEmail(resultSet.getString("email"));
+            }
+            return user;
         } catch (IOException | SQLException e) {
             throw new RuntimeException(e);
         }

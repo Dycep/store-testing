@@ -18,16 +18,19 @@ public class Config {
 
     private Long millisToPoll;
 
-    private Config(String url, String browserName, HashMap<String, String[]> args, Long millisToWait, Long millisToPoll) {
+    private Config(String url, String browserName, HashMap<String, String[]> browserArguments, Long millisToWait, Long millisToPoll) {
         this.url = url;
         this.browserName = browserName;
-        this.browserArguments = args;
+        this.browserArguments = browserArguments;
         this.millisToWait = millisToWait;
         this.millisToPoll = millisToPoll;
     }
 
-    private Config(String browserName){
+    private Config(String browserName, HashMap<String, String[]> browserArguments, Long millisToWait, Long millisToPoll){
         this.browserName = browserName;
+        this.browserArguments = browserArguments;
+        this.millisToWait = millisToWait;
+        this.millisToPoll = millisToPoll;
     }
 
     private Config() {

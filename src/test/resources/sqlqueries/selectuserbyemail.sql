@@ -1,2 +1,2 @@
 select * from users
-where users.email = "%s"
+where users.email = '%s'

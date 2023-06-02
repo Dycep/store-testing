@@ -9,10 +9,10 @@ import org.openqa.selenium.By;
 public class RegistrationForm extends Form {
 
     private final Input firstNameInput = new Input(By.name("firstNameInput"), "'First Name' input");
-    private final Input lastNameInput = new Input(By.name("firstNameInput"), "'Last Name' input");
-    private final Input passwordInput = new Input(By.name("firstNameInput"), "'Password' input");
-    private final Input emailInput = new Input(By.name("firstNameInput"), "'Email' input");
-    private final Input phoneInput = new Input(By.name("firstNameInput"), "'Phone' input");
+    private final Input lastNameInput = new Input(By.name("lastNameInput"), "'Last Name' input");
+    private final Input passwordInput = new Input(By.name("passwordInput"), "'Password' input");
+    private final Input emailInput = new Input(By.name("emailInput"), "'Email' input");
+    private final Input phoneInput = new Input(By.name("phoneInput"), "'Phone' input");
     private final Button submitButton = new Button(By.xpath("//input[@type='submit']"), "'Submit' button");
 
     public RegistrationForm() {
@@ -41,7 +41,7 @@ public class RegistrationForm extends Form {
 
     public void fillRegistrationForm(UserModel user){
         sendFirstName(user.getFirstName());
-        sendLastName(user.getEmail());
+        sendLastName(user.getLastName());
         sendPassword(user.getPassword());
         sendEmail(user.getEmail());
         sendPhone(user.getPhone());

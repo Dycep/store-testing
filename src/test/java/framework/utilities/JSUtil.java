@@ -10,11 +10,11 @@ public class JSUtil {
         executor.executeScript(script);
     }
 
-    public static void scrollToBottom(){
+    public static void scrollToTheBottom(){
         executeScript("window.scrollBy(0,document.body.scrollHeight)");
     }
 
-    public static void scrollToTop(){
+    public static void scrollToTheTop(){
         executeScript("window.scrollBy(0,-document.body.scrollHeight)");
     }
 }

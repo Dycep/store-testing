@@ -1,6 +1,8 @@
 import constants.FilepathConstants;
+import database.StoreDatabase;
 import framework.utilities.WebDriverUtil;
 import models.UserModel;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.registrationpage.RegistrationPage;
@@ -18,6 +20,11 @@ public class RegistrationTest {
         APIUtil.setBaseUri(JSONUtil.getValueFromJsonFileByKey("src/test/resources/config/testconfig.json", "baseUri"));
     }
 
+    @AfterMethod
+    public void tearDown() {
+        WebDriverUtil.getInstance().destroyWebDriverInstance();
+    }
+
     @Test
     public void testApiRegistrationAndItsConfirmation(){
         UserModel testUser = JSONUtil.getValueFromJsonFileByKey(FilepathConstants.TEST_DATA_FILEPATH.getFilePath(), "user", UserModel.class);
@@ -29,9 +36,10 @@ public class RegistrationTest {
     @Test
     public void testUIRegistrationAndItsConfirmation(){
         WebDriverUtil.getInstance().getDriver().get("http://localhost:3000/registration");
-        UserModel user = JSONUtil.getValueFromJsonFileByKey("src/test/resources/testdata/testdata.json", "user");
+        UserModel user = JSONUtil.getValueFromJsonFileByKey(FilepathConstants.TEST_DATA_FILEPATH.getFilePath(), "user", UserModel.class);
         RegistrationPage.registrationForm().fillRegistrationForm(user);
         RegistrationPage.registrationForm().submitForm();
-        //TODO sql request to check whether user account has been created and confirmed
+        UserModel userFromDB = StoreDatabase.getUserByEmail(user.getEmail());
+        assertEquals(user, userFromDB, "user in db should match testUser");
     }
 }

@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="try to set up framework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/StoreDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SqlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sqlqueries/selectuserbyemail.sql" afterDir="false" />
+    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="commit giuyg">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_03_2023_21_08_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_03_2023_21_08__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/StoreDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/StoreDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SqlUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/registrationpage/forms/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/registrationpage/forms/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/framework_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/framework_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sqlqueries/selectuserbyemail.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sqlqueries/selectuserbyemail.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +74,11 @@
       <recent name="logger" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestTest.testVkLogIn">
-    <configuration name="ItemRequestsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RegistrationTest.testUIRegistrationAndItsConfirmation">
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemRequestsTest" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -82,11 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemRequestsTest.testCRUDOperations" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.testAp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemRequestsTest" />
-      <option name="METHOD_NAME" value="testCRUDOperations" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="testAp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,11 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testRegistrationAndItsConfirmation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.testApiRegistrationAndItsConfirmation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="store-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testRegistrationAndItsConfirmation" />
+      <option name="METHOD_NAME" value="testApiRegistrationAndItsConfirmation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.testUIRegistrationAndItsConfirmation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="store-testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="testUIRegistrationAndItsConfirmation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,23 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="store-testing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTest.testUIRegistrationAndItsConfirmation" />
+        <item itemvalue="TestNG.RegistrationTest.testAp" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.RegistrationTest.testApiRegistrationAndItsConfirmation" />
         <item itemvalue="TestNG.TestTest.testVkLogIn" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.ItemRequestsTest" />
-        <item itemvalue="TestNG.ItemRequestsTest.testCRUDOperations" />
-        <item itemvalue="TestNG.RegistrationTest.testRegistrationAndItsConfirmation" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +185,15 @@
     <MESSAGE value="commit" />
     <MESSAGE value="gdf" />
     <option name="LAST_COMMIT_MESSAGE" value="gdf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

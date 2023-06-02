@@ -18,13 +18,13 @@ public class AlertUtil {
     }
 
     public static Alert switchToAlert(){
-        logInfo("Switch to alert");
+        logInfo("Switching to alert...");
         WebDriverWaitUtil.waitAlertPresence();
         return WebDriverUtil.getInstance().getDriver().switchTo().alert();
     }
 
     public static void acceptAlert(Alert alert){
-        logInfo("Accept alert");
+        logInfo("Accepting alert...");
         alert.accept();
     }
 }
