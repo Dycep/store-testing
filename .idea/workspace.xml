@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="commit giuyg">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b83e763-5a98-48fe-b589-0d158d94bcd0" name="Changes" comment="commit u">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/StoreDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/StoreDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SqlUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/AlertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utilities/JSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/registrationpage/forms/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/registrationpage/forms/RegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/framework_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/framework_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sqlqueries/selectuserbyemail.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sqlqueries/selectuserbyemail.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677091394135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit u">
+      <created>1685664524454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685664524454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="gdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="gdf" />
+    <MESSAGE value="commit u" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit u" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
