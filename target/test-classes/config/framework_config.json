@@ -1,0 +1,10 @@
+{
+  "browserName" : "edge",
+  "browserArguments" : {
+    "chrome": [],
+    "firefox": [],
+    "edge": ["--remote-allow-origins=*"]
+  },
+  "millisToWait" : 5000,
+  "millisToPoll" : 30
+}

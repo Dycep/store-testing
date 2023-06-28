@@ -1,0 +1,22 @@
+{
+  "user" : {
+    "firstName" : "Oleg",
+    "lastName" : "Oleg",
+    "password" : "fsdfsd",
+    "email" : "emai@mail.ru",
+    "phone" : "375207579767"
+  },
+  "items" : [
+    { "name" : "Apple",
+      "description" : "descripstion",
+      "price" : 1000},
+    { "name" : "Samsung",
+      "description" : "sdf",
+      "price" : 360}
+  ],
+  "updatedItem" : {
+    "name" : "Apple",
+    "description" : "description",
+    "price" : 1000
+  }
+}
