@@ -3,8 +3,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +25,4 @@ build/
 
 ### VS Code ###
 .vscode/
+!/.idea/
